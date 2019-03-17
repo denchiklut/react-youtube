@@ -20,7 +20,7 @@ class SearchBar extends Component {
                             value={this.state.term}
                             onChange={(e) => this.setState({term: e.target.value})} />
                         <div className="ui left corner label">
-                            <i className="asterisk icon" />
+                            <i className="youtube icon" />
                         </div>
                         <button className="ui icon button">
                             <i className="search icon" />
